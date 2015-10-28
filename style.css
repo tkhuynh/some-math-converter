@@ -1,0 +1,21 @@
+#menu {
+	text-align: center;
+}
+.left {
+	position: relative;
+	float: left;
+	margin-left: 100px;
+}
+.right {
+	position: relative;
+	float: right;
+	margin-right: 100px;
+}
+#value {
+	height: 35px;
+	width: 350px;
+}
+#box {
+	height: 35px;
+	width: 400px;
+}

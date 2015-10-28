@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+
+  	<div class="container">
+	  	<div id="menu">
+	  		<button type="button" class="btn btn-primary" id="menu1">Decimal Converter</button>
+	  		<button type="button" class="btn btn-primary" id="menu2">Binary Converter</button>
+	  		<button type="button" class="btn btn-primary" id="menu3">Prime Checker</button>
+	  		<button type="button" class="btn btn-primary" id="menu4">Fibonacci Checker</button>
+	  	</div>
+	</div>
+	<div class="container">
+	  	<div id="decimal_converter">
+	  		<div class="left">
+		  		<h3>Enter decimal value (max: 999999999999).</h3>
+		  		<input class="form-control" id="value" type="text" maxlength="12">
+	  			<button class="btn btn-success" id="converter" type="button" style="height: 35px; width: 100px">Convert</button>
+	  			<button class="btn btn-default" id="clear" type="button" style="height: 35px; width: 100px">Clear</button>
+	  			<div class="alert alert-warning">
+    				<strong>Attention!</strong> Only enter Decimal number (integer).
+  				</div>
+	  		</div>
+	  		<div class="right">
+	  			<h3>Binary value.</h3>
+	  			<div class="well well-sm" id="box"></div>
+	  		</div>
+	  	</div>
+	</div>
+
+	<div class="container">
+	  	<div id="binary_converter">
+	  		<div class="left">
+		  		<h3>Enter binary value (max: 45 digits).</h3>
+		  		<input class="form-control" id="value" type="text" maxlength="45">
+	  			<button class="btn btn-success" id="converter" type="button" style="height: 35px; width: 100px">Convert</button>
+	  			<button class="btn btn-default" id="clear" type="button" style="height: 35px; width: 100px">Clear</button>
+	  			<div class="alert alert-warning">
+    				<strong>Attention!</strong> Binary number contains only 0 and 1
+  				</div>
+	  		</div>
+	  		<div class="right">
+	  			<h3>Decimal value.</h3>
+	  			<div class="well well-sm" id="box"></div>
+	  		</div>
+	  	</div>
+  	</div>
+
+  	<div class="container">
+	  	<div id="prime_checker">
+	  		<div class="left">
+		  		<h3>Enter integer value (max: 999999999999).</h3>
+		  		<input class="form-control" id="value" type="text" maxlength="12">
+	  			<button class="btn btn-success" id="check" type="button" style="height: 35px; width: 100px">Check</button>
+	  			<button class="btn btn-default" id="clear" type="button" style="height: 35px; width: 100px">Clear</button>
+	  			<div class="alert alert-warning">
+    				<strong>Attention!</strong> Please, enter interger only.
+  				</div>
+	  		</div>
+	  		<div class="right">
+	  			<h3>Result.</h3>
+	  			<div class="well well-sm" id="box" style="width: 400px"></div>
+	  		</div>
+	  	</div>
+	</div>
+
+	<div class="container">
+	  	<div id="fibonacci_checker">
+	  		<div class="left">
+		  		<h3>Enter integer value (max: 999999999).</h3>
+		  		<input class="form-control" id="value" type="text" maxlength="9">
+	  			<button class="btn btn-success" id="check" type="button" style="height: 35px; width: 100px">Check</button>
+	  			<button class="btn btn-default" id="clear" type="button" style="height: 35px; width: 100px">Clear</button>
+	  			<div class="alert alert-warning">
+    				<strong>Attention!</strong> Please, enter interger only.
+  				</div>
+	  		</div>
+	  		<div class="right">
+	  			<h3>Result.</h3>
+	  			<div class="well well-sm" id="box" style="width: 400px; height: 80px"></div>
+	  		</div>
+	  	</div>
+	</div>
+
+  </body>
+ </html>
